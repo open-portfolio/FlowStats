@@ -16,7 +16,7 @@ class StatsTests: XCTestCase {
         let values = [-0.5, -0.3, -0.2, -0.4, 0, 0.3, 0.2, 0.8]
         let stats = Stats(values: values)
         let actual = stats.range
-        let expected = -0.5...0.8
+        let expected = -0.5 ... 0.8
         XCTAssertEqual(expected, actual)
     }
 }
